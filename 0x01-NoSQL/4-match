@@ -1,0 +1,2 @@
+// condition commands
+db.school.find({name : "Holberton school"}).pretty()
