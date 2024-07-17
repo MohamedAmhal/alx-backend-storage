@@ -23,7 +23,7 @@ class Cache:
         '''
         self._redis = redis.Redis()
         self._redis.flushdb(True)
-    
+
     def store(self, data: Union[str, int, float, bytes]) -> str:
         '''
         the methode store that take a variable data
